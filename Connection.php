@@ -2,12 +2,11 @@
 
 final class Connection
 {
-
   protected $connection = null;
-  protected $host       = 'localhost';
-  protected $username   = 'root';
+  protected $host       = '';
+  protected $username   = '';
   protected $password   = '';
-  protected $db         = 'user_login';
+  protected $db         = '';
 
   public function connect()
   {

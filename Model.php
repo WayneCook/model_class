@@ -1,5 +1,11 @@
 <?php
 
+/**
+ * User: Wayne
+ * Date: 10/22/2018
+ * Time: 22:03
+ */
+
 abstract class Model
 {
   private $connection;
