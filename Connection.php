@@ -1,10 +1,16 @@
 <?php
 
+/**
+ * User: Wayne Cook
+ * Date: 10/22/2018
+ * Time: 22:03
+ */
+
 final class Connection
 {
   protected $connection = null;
-  protected $host       = '';
-  protected $username   = '';
+  protected $host       = 'localhost';
+  protected $username   = 'root';
   protected $password   = '';
   protected $db         = '';
 
